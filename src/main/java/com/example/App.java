@@ -24,7 +24,14 @@ public class App {
         Scanner scanner=new Scanner(System.in);
         int operationNumber = scanner.nextInt();
 
-        // if else or switch
+        System.out.println("Enter an operator: (+ OR - OR * OR /) ");
+        char operation = scanner.next().charAt(0);
+
+        System.out.println("Enter the first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.println("Enter the second number: ");
+        double num2 = scanner.nextDouble();
 
 
     }
